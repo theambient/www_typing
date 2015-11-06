@@ -18,6 +18,7 @@ function testTypingEffect() {
     type();
 }
 
+
 function type() {
     captionEl.html(caption.substr(0, captionLength++));
     if(captionLength < caption.length+1) {
